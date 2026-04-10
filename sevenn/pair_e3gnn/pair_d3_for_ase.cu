@@ -462,7 +462,7 @@ void PairD3::setfuncpar_zero() {
     /* DFTB3(zeta = 4.0), old deprecated parameters; case ("dftb3"); rs6 = 1.235; s18 = 0.673; */
     case 48: rs6 = 1.221; s18 = 1.206; break;
     default:
-        error->all(FLERR, "Functional name unknown");
+        error->all(FLERR, "Functional name unknown THIS IS ZERO");
         break;
     }
 }
@@ -551,7 +551,7 @@ void PairD3::setfuncpar_bj() {
         case 54: rs6 = 0.4948; s18 = 0.7898; rs18 = 5.7308; break;  // S. Ehlert et al.,  J. Chem. Phys. 154, 061101 (2021)
         case 55: rs6 = 0.5915; s18 = 0.9092; rs18 = 4.3652; s6 = 1.0965; alp = 0.0; break;
         default:
-            error->all(FLERR, "Functional name unknown TEST TEST TEST");
+            error->all(FLERR, "Functional name unknown THIS IS BJ");
             break;
     }
 }
@@ -576,7 +576,7 @@ void PairD3::setfuncpar_zerom() {
         case 7: rs6 = 2.077949; s18 = 0.000081; rs18 = 0.116755; break;
         case 8: rs6 = 1.366361; s18 = 1.280619; rs18 = 0.003160; break;
         default:
-            error->all(FLERR, "Functional name unknown");
+            error->all(FLERR, "Functional name unknown THIS IS ZEROM");
             break;
     }
 }
@@ -601,7 +601,7 @@ void PairD3::setfuncpar_bjm() {
         case 7: rs6 = 0.007912; s18 = 0.528823; rs18 = 6.162326; break;
         case 8: rs6 = 0.563761; s18 = 0.906564; rs18 = 3.593680; break;
         default:
-            error->all(FLERR, "Functional name unknown");
+            error->all(FLERR, "Functional name unknown THIS IS BJM");
             break;
     }
 }
