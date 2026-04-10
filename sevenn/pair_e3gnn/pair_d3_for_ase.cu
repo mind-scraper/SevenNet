@@ -551,7 +551,7 @@ void PairD3::setfuncpar_bj() {
         case 54: rs6 = 0.4948; s18 = 0.7898; rs18 = 5.7308; break;  // S. Ehlert et al.,  J. Chem. Phys. 154, 061101 (2021)
         case 55: rs6 = 0.5915; s18 = 0.9092; rs18 = 4.3652; s6 = 1.0965; alp = 0.0; break;
         default:
-            error->all(FLERR, "Functional name unknown");
+            error->all(FLERR, "Functional name unknown TEST TEST TEST");
             break;
     }
 }
